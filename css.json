@@ -1,0 +1,27 @@
+{
+	"Responsive": {
+		"prefix": "responsive",
+		"body": [
+			"/*** Responsive Styles Large Desktop And Above ***/",
+			"@media all and (min-width: 1405px) {}",
+			"/*** Responsive Styles Standard Desktop Only ***/",
+			"@media all and (min-width: 1100px) and (max-width: 1405px) {}",
+			"/*** Responsive Styles Tablet And Below ***/",
+			"@media all and (max-width: 980px) {}",
+			"/*** Responsive Styles Tablet Only ***/",
+			"@media all and (min-width: 768px) and (max-width: 980px) {}",
+			"/*** Responsive Styles Smartphone Only ***/",
+			"@media all and (max-width: 767px) {}",
+			"/*** Responsive Styles Smartphone Portrait ***/",
+			"@media all and (max-width: 479px) {}"
+		],
+		"description": "Gives responsive CSS template"
+	},
+	"senka": {
+		"prefix": "senka",
+		"body": [
+			"box-shadow: 0px 12px 18px -6px #000;"
+		],
+		"description": "Gives shadow of the box"
+	}
+}
